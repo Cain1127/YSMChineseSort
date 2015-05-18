@@ -21,17 +21,18 @@ it, simply add the following line to your Podfile:
 
 ## Quick Start
 1、import "NSArray+SortContact.h";＜br＞
-2、[self.dataSource sortContactTOTitleAndSectionRow:^(BOOL isSuccess, NSArray *titleArray, NSArray *rowArray) {   
+2、
+>>[self.dataSource sortContactTOTitleAndSectionRow:^(BOOL isSuccess, NSArray *titleArray, NSArray *rowArray) {   
 
-if (isSuccess) {    
+>>>>if (isSuccess) {    
 
-[self.titleDataSource addObjectsFromArray:titleArray];   
+>>>>>>[self.titleDataSource addObjectsFromArray:titleArray];   
 
-[self.rowDataSource addObjectsFromArray:rowArray];          
+>>>>>>[self.rowDataSource addObjectsFromArray:rowArray];          
 
-}    
+>>>>}    
 
-}];    
+>>}];    
 
 ## Author
 
