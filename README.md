@@ -7,7 +7,8 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.＜br＞
+To run the example project, clone the repo, and run `pod install` from the Example directory first.     
+
 pod 'YSMChineseSort','~>0.1.0'
 
 ## Requirements
