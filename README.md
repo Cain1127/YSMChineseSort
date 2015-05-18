@@ -20,7 +20,8 @@ YSMChineseSort is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ## Quick Start
-1、import "NSArray+SortContact.h";＜br＞
+1、import "NSArray+SortContact.h";    
+
 2、
 >>[self.dataSource sortContactTOTitleAndSectionRow:^(BOOL isSuccess, NSArray *titleArray, NSArray *rowArray) {   
 
