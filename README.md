@@ -8,17 +8,28 @@
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+pod 'YSMChineseSort','~>0.1.0'
 
 ## Requirements
+iOS 7.1
 
 ## Installation
 
 YSMChineseSort is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod "YSMChineseSort"
-```
+## Quick Start
+1、import "NSArray+SortContact.h";
+2、[self.dataSource sortContactTOTitleAndSectionRow:^(BOOL isSuccess, NSArray *titleArray, NSArray *rowArray) {
+
+if (isSuccess) {
+
+[self.titleDataSource addObjectsFromArray:titleArray];
+[self.rowDataSource addObjectsFromArray:rowArray];
+
+}
+
+}];
 
 ## Author
 

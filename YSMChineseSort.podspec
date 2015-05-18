@@ -10,21 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "YSMChineseSort"
   s.version          = "0.1.0"
-  s.summary          = "A short description of YSMChineseSort."
+  s.summary          = "YSMChineseSort as Contacts array"
   s.description      = <<-DESC
-                       An optional longer description of YSMChineseSort
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        1、chinese simple sort;
+                        2、return titleArray for UITableView section title;
+                        3、return rowArray for UITableViewCell info.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/YSMChineseSort"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/Cain1127/YSMChineseSort"
   s.license          = 'MIT'
   s.author           = { "ysmeng" => "49427823@163.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/YSMChineseSort.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/Cain1127/YSMChineseSort.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '7.1'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -32,7 +29,4 @@ Pod::Spec.new do |s|
     'YSMChineseSort' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
