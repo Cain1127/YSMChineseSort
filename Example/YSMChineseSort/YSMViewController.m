@@ -95,7 +95,7 @@
     [self.titleDataSource removeAllObjects];
     [self.rowDataSource removeAllObjects];
     
-    [self.dataSource sortContactTOTitleAndSectionRow:^(BOOL isSuccess, NSArray *titleArray, NSArray *rowArray) {
+    [self.dataSource sortContactTOTitleAndSectionRow_A_CE:^(BOOL isSuccess, NSArray *titleArray, NSArray *rowArray) {
         
         if (isSuccess) {
             

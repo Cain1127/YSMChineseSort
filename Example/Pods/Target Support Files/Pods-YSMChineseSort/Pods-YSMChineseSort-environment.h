@@ -6,9 +6,15 @@
 // project.
 
 
+// PinYin4Objc
+#define COCOAPODS_POD_AVAILABLE_PinYin4Objc
+#define COCOAPODS_VERSION_MAJOR_PinYin4Objc 1
+#define COCOAPODS_VERSION_MINOR_PinYin4Objc 1
+#define COCOAPODS_VERSION_PATCH_PinYin4Objc 1
+
 // YSMChineseSort
 #define COCOAPODS_POD_AVAILABLE_YSMChineseSort
 #define COCOAPODS_VERSION_MAJOR_YSMChineseSort 0
 #define COCOAPODS_VERSION_MINOR_YSMChineseSort 1
-#define COCOAPODS_VERSION_PATCH_YSMChineseSort 0
+#define COCOAPODS_VERSION_PATCH_YSMChineseSort 1
 

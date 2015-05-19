@@ -4,8 +4,10 @@ PODS:
     - Expecta (~> 0.3)
     - FBSnapshotTestCase (= 1.6)
   - FBSnapshotTestCase (1.6)
+  - PinYin4Objc (1.1.1)
   - Specta (1.0.0)
-  - YSMChineseSort (0.1.0)
+  - YSMChineseSort (0.1.1):
+    - PinYin4Objc (~> 1.1.1)
 
 DEPENDENCIES:
   - Expecta
@@ -22,7 +24,8 @@ SPEC CHECKSUMS:
   Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
   Expecta+Snapshots: 40c5ec43b43da3bae957f14fed5dc9177d08ec8b
   FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
   Specta: 96fe05fe5c7348b5223f85e862904f6e832abb14
-  YSMChineseSort: 0d76035ee6541eb364c691145cac440bdaeaef96
+  YSMChineseSort: ef532bfe993ff1b4dc9bcd644ead1a43b2632b88
 
 COCOAPODS: 0.37.1

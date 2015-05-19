@@ -58,9 +58,11 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "PinYin4Objc/PinYin4Objc/Resources/unicode_to_hanyu_pinyin.txt"
   install_resource "${BUILT_PRODUCTS_DIR}/YSMChineseSort.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "PinYin4Objc/PinYin4Objc/Resources/unicode_to_hanyu_pinyin.txt"
   install_resource "${BUILT_PRODUCTS_DIR}/YSMChineseSort.bundle"
 fi
 

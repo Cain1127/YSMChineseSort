@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "YSMChineseSort"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "YSMChineseSort as Contacts array"
   s.description      = <<-DESC
                         1、chinese simple sort;
@@ -28,5 +28,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'YSMChineseSort' => ['Pod/Assets/*.png']
   }
+
+  s.dependency 'PinYin4Objc', '~> 1.1.1'
 
 end
